@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:slategray;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    
+}
+.card{
+    width:400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 1px 2px 4px black;
+    padding: 10px 0;
+    background-color: burlywood;
+}
+.card:hover{
+    
+
+}
+.cal-box #result{
+    width: 350px;
+    height: 120px;
+    text-align: right;
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    padding: 0 5px;
+    outline: none;
+    background-color:gray;
+    border-radius: 15px;
+    border: none;
+    
+
+}
+.btn{
+    width: 87px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin: 5px 0;
+    border: none;
+    outline: none;
+    
+}
+.btn1{
+    background-color: indianred;
+}
+.btn2{
+    background-color: palevioletred;
+}
+.btn3{
+    background-color: red;
+}
+.btn:hover{
+    background-color: hotpink;
+}
+.on{
+    float: left;
+    margin-left: 23px;
+    background-color:red;
+  
+    font-weight: bold;
+}
+.off{
+    margin-left:165px ;
+    background-color: green;
+}
